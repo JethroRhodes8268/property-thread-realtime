@@ -1,0 +1,12 @@
+{
+  "name": "property-thread-realtime",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/property_thread.ts",
+    "test": "tsx --test test/property_thread.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": { "zod": "^3.23.8" },
+  "devDependencies": { "tsx": "^4.19.1", "typescript": "^5.6.3", "@types/node": "^22.7.4" }
+}

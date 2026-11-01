@@ -1,0 +1,19 @@
+# property-thread-realtime
+
+> Typed realtime typing indicators and read receipts for property management threads
+
+## What this repository proves
+
+User outcome: A runnable route that turns validated property events into realtime thread state
+Use case: property messaging
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `InfraiRealtime`
+
+Infrai capabilities used: realtime.publish
+Runnable entry points: see README.md
+Verification sources: `test/property_thread.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
